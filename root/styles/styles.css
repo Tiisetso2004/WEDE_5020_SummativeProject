@@ -1,22 +1,25 @@
 body {
-    background-color: rgba(220, 226, 226, 0.5); 
+    background-color: rgba(220, 226, 226, 0.5); /*Weak grey for less glare on brighter screens*/ 
     margin: 0;
 }
 
+/* navigation bar styling */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.332);
-    display: flex;
+    background-color: rgba(0, 0, 0, 0.332); /*navbar opacity*/
+    display: flex; /*flexbox display*/
     flex-direction: row;
     padding: 3px;
 }
 
-a {
+/* link styling */
+.text-links {
     text-decoration: none;
     color: white;
     margin: 90px;
 }
 
-a:hover {
+/* hover effect for links */
+.text-links:hover {
     color: yellow;
     transition: 0.2s;
 }
