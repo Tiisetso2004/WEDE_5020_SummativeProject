@@ -1,26 +1,49 @@
 body {
-    background-color: rgba(220, 226, 226, 0.5); /*Weak grey for less glare on brighter screens*/ 
+    background-color: rgba(220, 226, 226, 0.5);
+    /*Weak grey for less glare on brighter screens*/
     margin: 0;
 }
 
 /* navigation bar styling */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.332); /*navbar opacity*/
-    display: flex; /*flexbox display*/
-    flex-direction: row;
-    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.332);
+    /*navbar opacity*/
+    display: flex;
+    /*flexbox display*/
+    flex-direction: column;
+    padding: 10px 20px;
 }
 
 /* link styling */
 .text-links {
     text-decoration: none;
     color: white;
-    margin: 90px;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.2s ease;
 }
 
 /* hover effect for links */
 .text-links:hover {
     color: yellow;
-    transition: 0.2s;
 }
 
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width:770px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        width: auto;
+        gap: 20px;
+    }
+}
