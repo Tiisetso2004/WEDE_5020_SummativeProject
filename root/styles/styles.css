@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+
 /* navigation bar styling */
 .navbar {
     background-color: rgba(0, 0, 0, 0.332);
@@ -12,6 +13,14 @@ body {
     /*flexbox display*/
     flex-direction: column;
     padding: 10px 20px;
+}
+
+/*logo styling*/
+#logo {
+    border: solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
 
 /* link styling */
@@ -35,7 +44,7 @@ body {
     text-align: center;
 }
 
-@media (min-width:770px) {
+@media screen and (min-width:560px) {
     .navbar {
         flex-direction: row;
         justify-content: space-between;
