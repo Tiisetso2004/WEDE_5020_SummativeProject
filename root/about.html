@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../root/styles/styles.css">
+    <title>Gorilla Fitness | About</title>
+    <!--Google API font stylesheets-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--webpage stylesheet-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!--scripts-->
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <body>
+
+        <nav>
+
+            <!--mobile sidebar-->
+            <ul class="sidebar">
+
+                <!--close svg icon from google fonts/icons-->
+                <li onclick=hideSidebar()>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px"
+                            fill="#e3e3e3">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg>
+                    </a>
+                </li>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sign-up-form.html">Sign Up</a></li>
+                <li><a href="memberships.html">Memberships</a></li>
+                <li><a href="training-programmes.html">Training</a></li>
+            </ul>
+
+            <!--desktop navigation bar-->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+                <li class="hide-on-mobile"><a href="sign-up-form.html">Sign Up</a></li>
+                <li class="hide-on-mobile"><a href="memberships.html">Memberships</a></li>
+                <li class="hide-on-mobile"><a href="training-programmes.html">Training</a></li>
+
+                <!--hamburger svg from google fonts/icons-->
+                <li class="hamburger-menu" onclick=showSidebar()>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px"
+                            fill="#e3e3e3">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </body>
+
+</html>
