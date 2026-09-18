@@ -1,0 +1,61 @@
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+    width: 70%;
+    max-width: 600px;
+    padding: 30px;
+    border: 5px solid grey;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+    background-color: inherit;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 12px;
+    outline: none;
+}
+
+/* Adds a clean focus glow when user clicks inside an input */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: grey;
+}
+
+.contact-form button[type="submit"] {
+    padding: 10px 24px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(to right, grey, black);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, black, grey);
+}

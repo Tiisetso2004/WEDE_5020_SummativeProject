@@ -1,0 +1,95 @@
+/* Form Container */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+.signup-form {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    color: #ffffff;
+}
+
+.signup-form h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #ffffff;
+    /*Explicitly styles the heading white*/
+}
+
+/* Form Layout Groups */
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #e0e0e0;
+}
+
+/*Inputs (Text, Email, Password)*/
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333333;
+    transition: border-color 0.2s ease;
+}
+
+/*Input Focus State*/
+.form-group input:focus {
+    outline: none;
+    border-color: #1f68bd;
+    box-shadow: 0 0 0 3px rgba(31, 104, 189, 0.3);
+}
+
+/*Checkbox Alignment*/
+.form-group.checkbox {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.form-group.checkbox label {
+    margin-bottom: 0;
+    font-weight: normal;
+    user-select: none;
+    color: #e0e0e0;
+    /*Keeps checkbox text matching upper labels*/
+}
+
+/*Submit Button*/
+.signup-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #2b51a7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    /* Matches input corners */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.signup-form button[type="submit"]:hover {
+    background-color: #1f68bd;
+}
