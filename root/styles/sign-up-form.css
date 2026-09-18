@@ -78,18 +78,4 @@
 /*Submit Button*/
 .signup-form button[type="submit"] {
     width: 100%;
-    padding: 12px;
-    background-color: #2b51a7;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    /* Matches input corners */
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-.signup-form button[type="submit"]:hover {
-    background-color: #1f68bd;
 }

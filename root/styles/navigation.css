@@ -72,6 +72,24 @@ nav li:first-child {
     display: none;
 }
 
+.cta-button {
+    color: white;
+    display: inline-block;
+    background: linear-gradient(to left, grey, black);
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: linear-gradient(to right, grey, black);
+    transform: scale(1.05);
+}
+
 /* FOOTER STYLING */
 footer {
     margin-top: auto;
