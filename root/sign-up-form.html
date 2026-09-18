@@ -12,7 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!--webpage stylesheet-->
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/sign-up-form.css">
     <!--scripts-->
     <script src="scripts/script.js" defer></script>
 </head>
@@ -25,7 +26,7 @@
         <ul class="sidebar">
 
             <!--close svg icon from google fonts/icons-->
-            <li onclick=hideSidebar()>
+            <li onclick="hideSidebar()">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px"
                         fill="#e3e3e3">
@@ -36,6 +37,7 @@
             </li>
 
             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="sign-up-form.html">Sign Up</a></li>
             <li><a href="memberships.html">Memberships</a></li>
@@ -46,12 +48,13 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+            <li class="hide-on-mobile"><a href="about.html">About</a></li>
             <li class="hide-on-mobile"><a href="sign-up-form.html">Sign Up</a></li>
             <li class="hide-on-mobile"><a href="memberships.html">Memberships</a></li>
             <li class="hide-on-mobile"><a href="training-programmes.html">Training</a></li>
 
             <!--hamburger svg from google fonts/icons-->
-            <li class="hamburger-menu" onclick=showSidebar()>
+            <li class="hamburger-menu" onclick="showSidebar()">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px"
                         fill="#e3e3e3">
@@ -62,6 +65,51 @@
         </ul>
 
     </nav>
+
+    <div class="form-container">
+        <form class="signup-form">
+            <h2>Create an Account</h2>
+
+            <!--Full Name Field-->
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+            </div>
+
+            <!--Email Field-->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <!--Password Field-->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" minlength="8" placeholder="At least 8 characters"
+                    required>
+            </div>
+
+            <!--Terms and Conditions Checkbox-->
+            <div class="form-group checkbox">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the Terms of Service</label>
+            </div>
+
+            <!--Submit Button-->
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Gorilla Fitness. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sign-up-form.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 

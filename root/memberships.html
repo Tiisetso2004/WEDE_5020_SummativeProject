@@ -12,7 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!--webpage stylesheet-->
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/membership.css">
     <!--scripts-->
     <script src="scripts/script.js" defer></script>
 </head>
@@ -25,7 +26,7 @@
         <ul class="sidebar">
 
             <!--close svg icon from google fonts/icons-->
-            <li onclick=hideSidebar()>
+            <li onclick="hideSidebar()">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px"
                         fill="#e3e3e3">
@@ -36,6 +37,7 @@
             </li>
 
             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="sign-up-form.html">Sign Up</a></li>
             <li><a href="memberships.html">Memberships</a></li>
@@ -46,12 +48,13 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+            <li class="hide-on-mobile"><a href="about.html">About</a></li>
             <li class="hide-on-mobile"><a href="sign-up-form.html">Sign Up</a></li>
             <li class="hide-on-mobile"><a href="memberships.html">Memberships</a></li>
             <li class="hide-on-mobile"><a href="training-programmes.html">Training</a></li>
 
             <!--hamburger svg from google fonts/icons-->
-            <li class="hamburger-menu" onclick=showSidebar()>
+            <li class="hamburger-menu" onclick="showSidebar()">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px"
                         fill="#e3e3e3">
@@ -62,6 +65,92 @@
         </ul>
 
     </nav>
+    <h1>Membership Plans</h1>
+
+    <div class="container">
+        <!-- PROFESSIONAL: Flagship Package for Career Professionals -->
+        <div class="membership-card">
+            <div id="pro-image-container"></div>
+            <div class="content">
+                <h3>PROFESSIONAL</h3>
+                <p>Designed for busy executives and high-performers. Executive locker access, flexible 24/7 priority
+                    scheduling,
+                    and monthly bespoke programming.</p>
+                <button class="cta-button">Select Professional — R1,250/mo &rarr;</button>
+            </div>
+        </div>
+
+        <!-- ELITE: High-Performance Athletes -->
+        <div class="membership-card">
+            <div id="elite-image-container"></div>
+            <div class="content">
+                <h3>ELITE</h3>
+                <p>Built for serious lifters pushing physical limits. Unlimited 24/7 access, full recovery suite usage,
+                    and
+                    quarterly 1-on-1 performance assessments.</p>
+                <button class="cta-button">Select Elite — R850/mo &rarr;</button>
+            </div>
+        </div>
+
+        <!-- INTERMEDIATE: Regular Lifters -->
+        <div class="membership-card">
+            <div id="intermediate-image-container"></div>
+            <div class="content">
+                <h3>INTERMEDIATE</h3>
+                <p>Standard open-gym access during all operational hours plus 4 specialty group training sessions per
+                    month to
+                    keep your progress moving.</p>
+                <button class="cta-button">Select Intermediate — R650/mo &rarr;</button>
+            </div>
+        </div>
+
+        <!-- REGULAR: Off-Peak Lifters -->
+        <div class="membership-card">
+            <div id="regular-image-container"></div>
+            <div class="content">
+                <h3>REGULAR</h3>
+                <p>Essential open-gym access during off-peak hours. Ideal for consistent lifters who prefer training on
+                    a
+                    quieter gym floor.</p>
+                <button class="cta-button">Select Regular — R450/mo &rarr;</button>
+            </div>
+        </div>
+
+        <!-- STARTER: Students & Beginners -->
+        <div class="membership-card">
+            <div id="starter-image-container"></div>
+            <div class="content">
+                <h3>STARTER</h3>
+                <p>Budget-friendly option tailored for students and beginners looking to build a consistent training
+                    routine
+                    without long commitments.</p>
+                <button class="cta-button">Select Starter — R250/mo &rarr;</button>
+            </div>
+        </div>
+
+        <!-- SEASONAL: Short-Term & Travelers -->
+        <div class="membership-card">
+            <div id="seasonal-image-container"></div>
+            <div class="content">
+                <h3>SEASONAL</h3>
+                <p>Short-term flexibility for visiting athletes and travelers. Pay week-to-week with zero sign-up fees
+                    or
+                    cancellation contracts.</p>
+                <button class="cta-button">Select Seasonal — R70/wk &rarr;</button>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Gorilla Fitness. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sign-up-form.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 

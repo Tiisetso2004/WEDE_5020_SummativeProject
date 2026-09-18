@@ -10,21 +10,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <!--webpage stylesheet-->
-    <link rel="stylesheet" href="styles/styles.css">
-    <!--scripts-->
+    <!--Webpage stylesheet-->
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/hompage.css">
+    <!--Scripts-->
     <script src="scripts/script.js" defer></script>
 </head>
 
 <body>
 
     <nav>
-
-        <!--mobile sidebar-->
+        <!--Mobile sidebar-->
         <ul class="sidebar">
-
-            <!--close svg icon from google fonts/icons-->
-            <li onclick=hideSidebar()>
+            <!-- Close SVG icon -->
+            <li onclick="hideSidebar()">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px"
                         fill="#e3e3e3">
@@ -33,8 +32,8 @@
                     </svg>
                 </a>
             </li>
-
             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="sign-up-form.html">Sign Up</a></li>
             <li><a href="memberships.html">Memberships</a></li>
@@ -45,12 +44,13 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+            <li class="hide-on-mobile"><a href="about.html">About</a></li>
             <li class="hide-on-mobile"><a href="sign-up-form.html">Sign Up</a></li>
             <li class="hide-on-mobile"><a href="memberships.html">Memberships</a></li>
             <li class="hide-on-mobile"><a href="training-programmes.html">Training</a></li>
 
-            <!--hamburger svg from google fonts/icons-->
-            <li class="hamburger-menu" onclick=showSidebar()>
+            <!--Hamburger SVG icon-->
+            <li class="hamburger-menu" onclick="showSidebar()">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px"
                         fill="#e3e3e3">
@@ -59,8 +59,77 @@
                 </a>
             </li>
         </ul>
-
     </nav>
+
+    <!--HERO SECTION-->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>UNLEASH YOUR INNER STRENGTH<strong>.</strong></h1>
+            <p>State-of-the-art equipment, elite personal trainers, and high-intensity group classes.</p>
+            <div class="hero-buttons">
+                <a href="sign-up-form.html" class="btn btn-primary">Join Now</a>
+                <a href="memberships.html" class="btn btn-secondary">View Plans</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--FEATURES / VALUE PROPOSITION-->
+        <section class="features">
+            <div class="headings">
+                <h2>Why Choose Gorilla Fitness?</h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Flexible</h3>
+                    <p>Train on your terms with no hassle and no hidden costs.</p>
+                </div>
+                <div class="card">
+                    <h3>Pro Equipment</h3>
+                    <p>Top-tier free weights, racks, cardio platforms, and functional zones.</p>
+                </div>
+                <div class="card">
+                    <h3>Expert Coaching</h3>
+                    <p>Certified personal trainers to guide your form and program development.</p>
+                </div>
+                <div class="card">
+                    <h3>Professional Dieticians</h3>
+                    <p>Fuel your workouts with our on-site dieticians. New members get free consultation for the first
+                        month</p>
+                </div>
+            </div>
+        </section>
+
+        <!--FEATURED PROGRAMS HIGHLIGHT-->
+        <section class="programs-preview">
+            <div class="headings">
+                <h2>Popular Training Programs</h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Hypertrophy &amp; Strength</h3>
+                    <p>Structured compound lifters' protocol for maximum muscle gain.</p>
+                    <a href="training-programmes.html">Learn More &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>HIIT &amp; Conditioning</h3>
+                    <p>High-calorie burn functional sessions to boost endurance.</p>
+                    <a href="training-programmes.html">Learn More &rarr;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Gorilla Fitness. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sign-up-form.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 
