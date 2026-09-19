@@ -79,24 +79,24 @@ p {
 
 #hypertrophy-image-container {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(35, 35, 35, 0.3)),
-        url('../assets/images/pexels-pixabay-416809.jpg');
-    background-position: center 10%;
+        url('../assets/images/pexels-zeal-creative-studios-58866141-34043597.jpg');
+    background-position: center;
 }
 
 #strength-image-container {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(35, 35, 35, 0.3)),
-        url('../assets/images/pexels-cottonbro-4753892.jpg');
+        url('../assets/images/pexels-tima-miroshnichenko-6389081\(1\).jpg');
 }
 
 #functional-image-container {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(35, 35, 35, 0.3)),
-        url('../assets/images/pexels-zakaria-2827400.jpg');
+        url('../assets/images/pexels-blackphant-20882554.jpg');
     background-position: top center;
 }
 
 #endurance-image-container {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(35, 35, 35, 0.3)),
-        url('../assets/images/pexels-cottonbro-4761779.jpg');
+        url('../assets/images/pexels-ushindinamegabe-11175793.jpg');
 }
 
 /* RESPONSIVE BREAKPOINTS */
