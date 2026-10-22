@@ -1,19 +1,19 @@
 
 # Organisational Overview
 
-## Brief History:
+## Brief History
 
 Gorilla Fitness Centre is a fitness centre based in Cape Town. It was first opened in 2013 Xolile Banda a fitness enthusiast who wanted to turn her passion into a living. Today the gym has expanded from a modest centre into a fully professional gym which includes memberships, specialised training, dieticians on-site and weightloss programmes.
 
 ---
 
-## Vision and Mission Statements:
+## Vision and Mission Statements
 
 The goal of the Gorilla Fitness Centre is to provide high-quality fitness facilities at affordable prices.
 
 ---
 
-## Website Goals and Objectives:
+## Website Goals and Objectives
 
 - Serve as a primary hub of information to generate leads
 
@@ -25,7 +25,7 @@ The goal of the Gorilla Fitness Centre is to provide high-quality fitness facili
 
 ---
 
-## The Key Performance Indicators for this site will be:
+## The Key Performance Indicators for this site will be
 
 - Time spent on the site
 
@@ -35,26 +35,26 @@ The goal of the Gorilla Fitness Centre is to provide high-quality fitness facili
 
 ---
 
-## Proposed Features and Functionality:
+## Proposed Features and Functionality
 
 - Landing/Home page with links to about us, contact page
-    
+
 - Colour scheme: White, muted Greys, Blacks, Blue , Greens (Background image Specific colours)
 
 - Typography (proposed): Inter, System UI, Roboto, Google Sans, Apple UI.
 
--  UI navigation: Navigation bars and element buttons 
+- UI navigation: Navigation bars and element buttons
 
 ---
 
-## Technical Requirements:
+## Technical Requirements
 
 Frameworks: basic HTML, CSS, JavaScript (optional use case of React.js)
-Website/Domain name: https://www.gorillafitnesscentre.co.za
+Website/Domain name: <https://www.gorillafitnesscentre.co.za>
 
 ---
 
-## Timeline and Milestones:
+## Timeline and Milestones
 
 ### 14 August - 18 September
 
@@ -63,19 +63,19 @@ Website/Domain name: https://www.gorillafitnesscentre.co.za
 - Content sourcing: assets, images
 
 - Implementation of HTML and CSS for webpages
-    
+
 - Creation and Management of GitHub repository
 
 #### [week 2]  21 AUG – 28 AUG
 
 - CSS integration: responsive design, debugging
-    
+
 - Continued research
-     
+
 - GitHub repository Management
-    
+
 - Lecturer Feedback
-     
+
 #### [week 3]  28 AUG – 3 SEP
 
 - Continued Development: CSS, HTML
@@ -102,19 +102,19 @@ Website/Domain name: https://www.gorillafitnesscentre.co.za
 
 ---
 
-## Budget:
+## Budget
 
-The budget falls in line with the available packages and subscriptions based on: [https://www.domains.co.za]
+The budget falls in line with the available packages and subscriptions based on: <https://www.domains.co.za>
 
 Upfront Development Costs: R0 (developed and maintained in-house)
 
-#### Domain Registration: 
+### Domain Registration
 
 - international: R269.00 (.com)
 
 - local: R99.00 (.co.za)
 
-- Annual Hosting Costs:  R2000 - 2500 (annual renewals, server-side security 
+- Annual Hosting Costs:  R2000 - 2500 (annual renewals, server-side security
 and SSL certificate registrations)
 
 - Deployment: R0 deployed locally in-house by developers
@@ -125,10 +125,10 @@ and SSL certificate registrations)
 
 ---
 
-## References:
+## References
 
-Domains.co.za, 2026. Domains.co.za: Domain Names, Web Hosting & VPS. Available at: https://www.domains.co.za [Accessed 12 August 2026].
+Domains.co.za, 2026. Domains.co.za: Domain Names, Web Hosting & VPS. Available at: <https://www.domains.co.za> [Accessed 12 August 2026].
 
-Domains.co.za, 2026. Web Hosting South Africa. Available at: https://www.domains.co.za/web-hosting-south-africa [Accessed 12 August 2026].
+Domains.co.za, 2026. Web Hosting South Africa. Available at: <https://www.domains.co.za/web-hosting-south-africa> [Accessed 12 August 2026].
 
 ---
