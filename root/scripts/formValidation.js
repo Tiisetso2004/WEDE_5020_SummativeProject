@@ -1,3 +1,8 @@
+/* 
+Basic Form Valdation Logic
+Adapted from GeeksForGeeks (2026) 
+*/
+
 // Retrieve the form
 const form = document.getElementById("signup-form");
 
