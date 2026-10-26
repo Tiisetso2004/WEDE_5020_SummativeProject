@@ -127,8 +127,14 @@ and SSL certificate registrations)
 
 ## References
 
-Domains.co.za, 2026. Domains.co.za: Domain Names, Web Hosting & VPS. Available at: <https://www.domains.co.za> [Accessed 12 August 2026].
+Domains.co.za, 2026. *Domains.co.za: Domain Names, Web Hosting & VPS*. [online] Available at: <https://www.domains.co.za> [Accessed 12 August 2026].
 
-Domains.co.za, 2026. Web Hosting South Africa. Available at: <https://www.domains.co.za/web-hosting-south-africa> [Accessed 12 August 2026].
+Domains.co.za, 2026. *Web Hosting South Africa*. [online] Available at: <https://www.domains.co.za/web-hosting-south-africa> [Accessed 12 August 2026].
+
+Keep A Changelog, n.d. *Keep a Changelog*. [online] Available at: <https://keepachangelog.com/en/1.1.0/> [Accessed 22 October 2026].
+
+Semver.org, n.d. *Semantic Versioning 2.0.0*. [online] Available at: <https://semver.org/spec/v2.0.0.html> [Accessed 22 October 2026].
+
+GeeksForGeeks, 2026. *JavaScript Form Validation*. [online] Available at: <https://www.geeksforgeeks.org/javascript/form-validation-using-javascript/> Accessed [25 October 2026].
 
 ---
