@@ -67,32 +67,48 @@
     </nav>
 
     <div class="form-container">
-        <form class="signup-form">
+        <form id="signup-form">
             <h2>Create an Account</h2>
 
             <!--Full Name Field-->
             <div class="form-group">
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Jhon" required>
+                <span id="firstname-error" class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Doe" required>
+                <span id="lastname-error" class="error-message"></span>
+            </div>
+
+            <!--Username Field-->
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Example_us#r" required>
+                <span id="username-error" class="error-message"></span>
             </div>
 
             <!--Email Field-->
             <div class="form-group">
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                <span id="email-error" class="error-message"></span>
             </div>
 
             <!--Password Field-->
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" minlength="8" placeholder="At least 8 characters"
-                    required>
+                <input type="password" id="password" name="password" placeholder="exampleP@22Word" required>
+                <span id="password-error" class="error-message"></span>
             </div>
 
             <!--Terms and Conditions Checkbox-->
             <div class="form-group checkbox">
                 <input type="checkbox" id="terms" name="terms" required>
                 <label for="terms">I agree to the Terms of Service</label>
+                <span id="terms-error" class="error-message"></span>
             </div>
 
             <!--Submit Button-->
@@ -110,7 +126,7 @@
             </ul>
         </div>
     </footer>
-
+    <script src="scripts/formValidation.js"></script>
 </body>
 
 </html>
