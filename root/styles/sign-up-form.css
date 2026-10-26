@@ -6,7 +6,7 @@
     margin-top: 25vh;
 }
 
-.signup-form {
+#signup-form {
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(5px);
     padding: 30px;
@@ -17,7 +17,7 @@
     color: #ffffff;
 }
 
-.signup-form h2 {
+#signup-form h2 {
     margin-top: 0;
     margin-bottom: 24px;
     text-align: center;
@@ -50,6 +50,11 @@
     background-color: rgba(255, 255, 255, 0.9);
     color: #333333;
     transition: border-color 0.2s ease;
+}
+
+.error-message {
+    margin-top: 5px;
+    color: red;
 }
 
 /*Input Focus State*/
