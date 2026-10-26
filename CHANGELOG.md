@@ -38,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added foundational JavaScript script for interactive components.
 
-## [3.1.0] - 26-10-2026
+## [2.1.0] - 26-10-2026
 
 ### New release features
 
