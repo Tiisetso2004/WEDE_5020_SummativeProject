@@ -34,12 +34,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added responsive design breakpoints for mobile, tablet, and desktop viewports.
 - Adopted CSS patterns utilizing `@media` rules.
 
-#### JS
+#### JS foundation
 
 - Added foundational JavaScript script for interactive components.
+
+## [3.1.0] - 26-10-2026
+
+### New release features
+
+#### CSS
+
+- Fixed CSS selectors to target `id`.
+- Added error message styiling.
+
+#### HTML
+
+- Added `<span>` tag to display error messaging.
+- Refactored sign-up form to improve user input.
+
+#### JS Form Validation
+
+- Implemented basic js form validation logic to [formValidation.js](root/scripts/formValidation.js).
+
+#### TEHNICAL DOCUMENTATION
+
+- Added [technical notes](TECH_NOTES.md) to document technical descisions and implementation.
+
+#### DEPRECATED FEATURES
+
+- No deprecated features in this release.
 
 ## [3.0.0] - [Unreleased]
 
 ### What's new in PART 3
 
-- *Drafting upcoming features
+- Drafting upcoming features
