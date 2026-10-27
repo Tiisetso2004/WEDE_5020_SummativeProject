@@ -125,6 +125,28 @@ and SSL certificate registrations)
 
 ---
 
+## Part 3 Timeline
+
+### JavaScipt Integration
+
+### [week 1] 25 October - 31 October
+
+- Completion of scripts for intercative DOM features
+- Debugging
+- Meta tags and SEO implementation
+- Testing
+
+### Submission Week
+
+#### [week 2] 1 November - 3 November
+
+- JavaScript Debugging
+- Browser Optimisation
+- Website Deployment
+- Technical Documentation
+
+---
+
 ## References
 
 Domains.co.za, 2026. *Domains.co.za: Domain Names, Web Hosting & VPS*. [online] Available at: <https://www.domains.co.za> [Accessed 12 August 2026].
