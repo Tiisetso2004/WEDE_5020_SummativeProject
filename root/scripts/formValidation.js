@@ -1,17 +1,18 @@
 /* 
-Basic Form Valdation Logic
+Basic form valdation logic.
 Adapted from GeeksForGeeks (2026) 
 */
 
-// Retrieve the form
+//Retrieve form
 const form = document.getElementById("signup-form");
 
-// Attach an event listener 
+//Attach event listener 
 form.addEventListener("submit", function (event) {
-    // Prevent the form from being submitted by default
+    
+    //Prevent the form from being submitted by default
     event.preventDefault();
 
-    // Clear previous errors on submit
+    //Clear previous errors on submit
     resetErrors();
 
     // Retrieve the values from the elements containing the inputs
@@ -22,10 +23,10 @@ form.addEventListener("submit", function (event) {
     const password = document.getElementById("password").value.trim();
     const terms = document.getElementById("terms").checked;
 
-    // Boolean flag
+    //Boolean flag
     let isValid = true;
 
-    // Retrieve error span elements
+    //Retrieve error span elements
     const firstNameError = document.getElementById("firstname-error");
     const lastNameError = document.getElementById("lastname-error");
     const userNameError = document.getElementById("username-error");
@@ -33,13 +34,13 @@ form.addEventListener("submit", function (event) {
     const passwordError = document.getElementById("password-error");
     const checkboxError = document.getElementById("terms-error");
 
-    // Regular expressions
+    //Regular expressions
     const nameRegex = /^[a-zA-Z]{2,30}$/;
     const userNameRegex = /^(?=.*[@$!%?#&_])[a-zA-Z@$!%?#&_]{5,30}$/;
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%?&])[A-Za-z\d@$!%?&]{8,30}$/;
 
-    // Conditional validation statements
+    //Conditional validation statements
     if (!nameRegex.test(firstname)) {
         showError(firstNameError, "Name must be 2-30 letters.");
         isValid = false;
@@ -70,13 +71,14 @@ form.addEventListener("submit", function (event) {
         isValid = false;
     }
 
+    //Clear all form fields and display success message
     if (isValid) {
-        // Clear all the form fields and display success message
         alert("Account Successfully created");
         form.reset();
     }
 });
 
+//Targets error display element
 function showError(errorElement, message) {
     if (errorElement) {
         errorElement.innerText = message;
