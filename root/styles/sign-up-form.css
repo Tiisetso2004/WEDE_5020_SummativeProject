@@ -1,9 +1,10 @@
-/* Form Container */
+/*Form Container*/
 .form-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
 }
 
 #signup-form {
@@ -25,7 +26,7 @@
     /*Explicitly styles the heading white*/
 }
 
-/* Form Layout Groups */
+/*Form Layout Groups*/
 .form-group {
     margin-bottom: 20px;
     display: flex;
@@ -81,6 +82,6 @@
 }
 
 /*Submit Button*/
-.signup-form button[type="submit"] {
+#signup-form .cta-button[type="submit"] {
     width: 100%;
 }
