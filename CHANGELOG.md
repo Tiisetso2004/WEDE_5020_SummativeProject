@@ -64,6 +64,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - No deprecated features in this release.
 
+## [2.2.0]  - 28-10-2026
+
+### New Release Features
+
+#### CSS Adjustments
+
+- Improved form layout structure to keep form properly centered.
+
+#### Documentation
+
+- Refactored comments for readability and consistency
+
 ## [3.0.0] - [Unreleased]
 
 ### What's new in PART 3
