@@ -64,25 +64,33 @@
         </ul>
     </nav>
 
-    <form class="contact-form" action="#" method="POST">
+    <!--
+        Paste endpoint url in action attribute if custom script fails.
+        Use default script for validation and submission if errors persist.
+    -->
+    <form id="contact-form" action="#" method="POST">
         <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" placeholder="John Doe" required>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            <span class="error-element" id="name-error"></span>
         </div>
 
         <div class="form-group">
             <label for="user-email">Email Address</label>
             <input type="email" id="user-email" name="email" placeholder="someone@example.com" required>
+            <span class="error-element" id="email-error"></span>
         </div>
 
         <div class="form-group">
             <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Inquiry">
+            <input type="text" id="subject" name="subject" placeholder="Inquiry" required>
+            <span class="error-element" id="subject-error"></span>
         </div>
 
         <div class="form-group">
             <label for="message">Message</label>
             <textarea id="message" rows="5" name="message" placeholder="Type your message here" required></textarea>
+            <span class="error-element" id="message-error"></span>
         </div>
 
         <button type="submit" class="cta-button">Send Message &rarr;</button>
@@ -98,7 +106,7 @@
             </ul>
         </div>
     </footer>
-
+    <script src="scripts/contactForm.js" defer></script>
 </body>
 
 </html>

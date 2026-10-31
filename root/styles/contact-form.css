@@ -1,4 +1,4 @@
-.contact-form {
+#contact-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,11 @@
     background-color: transparent;
     border-radius: 10px;
 
+}
+
+#contact-form .error-element {
+    color: red;
+    margin-top: 5px;
 }
 
 .form-group {
