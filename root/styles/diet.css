@@ -1,0 +1,99 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 40px auto;
+    /*Centered auto margin */
+    width: 90%;
+    max-width: 1100px;
+    gap: 40px;
+    background-color: rgba(10, 10, 10, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.flex-content {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-image {
+    width: 50%;
+    max-width: 400px;
+    height: 350px;
+    object-fit: cover;
+    /*Prevents image distortion*/
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    max-width: 400px;
+    height: 350px;
+    /*Matches image container height*/
+    background-color: rgba(20, 20, 20, 1);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*LIGHTBOX*/
+
+.lightbox {
+    display: none;
+    /* Managed via script.js or lightbox.js */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.lightbox .lightbox-image {
+    max-width: 90%;
+    max-height: 80%;
+    padding: 4px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+/*RESPONSIVE BREAKPOINTS*/
+@media screen and (max-width: 766px) {
+    .flex-content {
+        flex-direction: column;
+        /* Stacks image above text on phones */
+        width: 100%;
+    }
+
+    .container-image,
+    .text-container {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container-image {
+        height: 280px;
+    }
+}
