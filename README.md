@@ -127,9 +127,9 @@ and SSL certificate registrations)
 
 ## Part 3 Timeline
 
-### JavaScipt Integration
+### JavaScipt Integration & Meta Tags
 
-### [week 1] 25 October - 31 October
+#### [week 1] 25 October - 31 October
 
 - Completion of scripts for intercative DOM features
 - Debugging
@@ -149,14 +149,22 @@ and SSL certificate registrations)
 
 ## References
 
-Domains.co.za, 2026. *Domains.co.za: Domain Names, Web Hosting & VPS*. [online] Available at: <https://www.domains.co.za> [Accessed 12 August 2026].
+Domains.co.za, 2026. Domains.co.za: *Domain Names, Web Hosting & VPS*. [online] Available at: <https://www.domains.co.za> [Accessed 12 August 2026].
 
 Domains.co.za, 2026. *Web Hosting South Africa*. [online] Available at: <https://www.domains.co.za/web-hosting-south-africa> [Accessed 12 August 2026].
 
+Formspree, n.d. *Advanced Features: Form Rules*. [online] Available at: <https://help.formspree.io/articles/advanced-features/form-rules/> [Accessed 28 October 2026].
+
+GeeksForGeeks, 2026. *JavaScript Form Validation*. [online] Available at: <https://www.geeksforgeeks.org/javascript/form-validation-using-javascript/> [Accessed 25 October 2026].
+
 Keep A Changelog, n.d. *Keep a Changelog*. [online] Available at: <https://keepachangelog.com/en/1.1.0/> [Accessed 22 October 2026].
+
+PQINA, n.d. *Async Form Posts with a Couple Lines of Vanilla JavaScript*. [online] Available at: <https://pqina.nl/blog/async-form-posts-with-a-couple-lines-of-vanilla-javascript/> [Accessed 31 November 2026].
 
 Semver.org, n.d. *Semantic Versioning 2.0.0*. [online] Available at: <https://semver.org/spec/v2.0.0.html> [Accessed 22 October 2026].
 
-GeeksForGeeks, 2026. *JavaScript Form Validation*. [online] Available at: <https://www.geeksforgeeks.org/javascript/form-validation-using-javascript/> Accessed [25 October 2026].
+W3Schools, n.d. *How To Make a Lightbox*. [online] Available at: <https://www.w3schools.com/howto/howto_js_lightbox.asp> [Accessed 22 October 2026].
+
+YouTube, 2026. Simple Image Lighbox TutoriAL. [online] Available at: <https://www.youtube.com/watch?v=uKVVSwXdLr0&t=63s> [Accessed 26 October 2026].
 
 ---
